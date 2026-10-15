@@ -12,5 +12,61 @@
     "how_to_get_there": null,
     "best_time": null,
     "tags": ["museum", "history", "culture", "heritage"]
+  },
+  {
+    "id": "place_002",
+    "name": "Puraran Beach",
+    "municipality": "Baras",
+    "category": "beach",
+    "latitude": 13.6897,
+    "longitude": 124.3949,
+    "description": "Puraran Beach in Baras is a beach known for surfing.",
+    "estimated_cost_php": null,
+    "opening_hours": null,
+    "how_to_get_there": null,
+    "best_time": null,
+    "tags": ["beach", "surfing", "coastal-scenery"]
+  },
+  {
+    "id": "place_003",
+    "name": "Marilima Beach",
+    "municipality": "Virac",
+    "category": "beach",
+    "latitude": 13.535531,
+    "longitude": 124.170506,
+    "description": "Marilima Beach is a white-sand beach in Barangay Marilima, Virac.",
+    "estimated_cost_php": null,
+    "opening_hours": null,
+    "how_to_get_there": "From Virac town, take a tricycle to Barangay Marilima.",
+    "best_time": null,
+    "tags": ["beach", "swimming", "coastal-scenery"]
+  },
+  {
+    "id": "place_004",
+    "name": "Binurong Point",
+    "municipality": "Baras",
+    "category": "nature",
+    "latitude": 13.667122,
+    "longitude": 124.414954,
+    "description": "Binurong Point is a clifftop viewpoint in Baras with panoramic views of the Catanduanes coast.",
+    "estimated_cost_php": null,
+    "opening_hours": null,
+    "how_to_get_there": null,
+    "best_time": null,
+    "tags": ["nature", "viewpoint", "hiking", "cliffs"]
+  },
+  {
+    "id": "place_005",
+    "name": "Maribina Falls",
+    "municipality": "Bato",
+    "category": "nature",
+    "latitude": 13.601253,
+    "longitude": 124.270582,
+    "description": "Maribina Falls is a freshwater waterfall in Bato, in the barangays of Marinawa and Binanwahan, where visitors can swim.",
+    "estimated_cost_php": null,
+    "opening_hours": null,
+    "how_to_get_there": "About a kilometer from the main highway between Virac and Bato, reached on foot or by tricycle.",
+    "best_time": null,
+    "tags": ["nature", "waterfall", "swimming", "freshwater"]
   }
 ]
