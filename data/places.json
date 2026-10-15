@@ -1,0 +1,16 @@
+[
+  {
+    "id": "place_001",
+    "name": "Museo de Catanduanes",
+    "municipality": "Virac",
+    "category": "culture",
+    "latitude": 13.58453,
+    "longitude": 124.23511,
+    "description": "Museo de Catanduanes is a local museum in Virac that showcases the history, culture, and heritage of Catanduanes.",
+    "estimated_cost_php": null,
+    "opening_hours": null,
+    "how_to_get_there": null,
+    "best_time": null,
+    "tags": ["museum", "history", "culture", "heritage"]
+  }
+]

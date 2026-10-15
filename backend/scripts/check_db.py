@@ -10,7 +10,7 @@ database_url = os.environ.get("DATABASE_URL")
 if not database_url:
     raise SystemExit("DATABASE_URL is missing. Check backend/.env")
 
-with psycopg.connect(database_url) as conn:
+with psycopg.connect(database_url, connect_timeout=15) as conn:
     with conn.cursor() as cur:
         cur.execute(
             "SELECT extname, extversion FROM pg_extension WHERE extname = 'vector';"
