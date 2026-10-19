@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import PlacesMap from "./components/PlacesMap";
 
 const API_URL = import.meta.env.VITE_API_URL ?? "http://127.0.0.1:8000";
 
@@ -8,6 +9,8 @@ type Place = {
   municipality: string;
   category: string;
   description: string;
+  latitude: number;
+  longitude: number;
 };
 
 function App() {
@@ -36,6 +39,7 @@ function App() {
     <main>
       <h1>Catanduanes Planner</h1>
       <p>Backend status: {status}</p>
+      <PlacesMap places={places} />
       <h2>Places</h2>
       {placesError && <p>{placesError}</p>}
       <ul>
